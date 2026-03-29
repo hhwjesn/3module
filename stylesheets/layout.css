@@ -4,11 +4,12 @@
 
 body {
   background-image: url(../images/background.svg);
+  background-size: 100%;
 }
 
-section {
+/* section {
   width: 100%;
-}
+} */
 
 @font-face {
   font-family: Hauora;
@@ -19,4 +20,73 @@ section {
 
 p {
   font-family: Hauora;
+}
+
+.card1 {
+  background-image: url(../images/card1.svg);
+  width: 90vw;
+  height: 50vw;
+  background-size: 90vw 50vw;
+  position: absolute;
+  left: 4%;
+}
+.question1 {
+  font-size: 1.6vw;
+  width: 40vw;
+  height: 7vw;
+  position: relative;
+  top: 18vw;
+  left: 10vw;
+  line-height: 2.2vw;
+}
+.answer1 {
+  font-size: 1.2vw;
+  width: 4vw;
+  height: 1.5vw;
+  position: relative;
+  top: 22vw;
+  left: 12vw;
+}
+.answer2 {
+  font-size: 1.2vw;
+  width: 15vw;
+  height: 1.5vw;
+  position: relative;
+  top: 24vw;
+  left: 12vw;
+}
+
+.card2 {
+  background-image: url(../images/card2.svg);
+  width: 90vw;
+  height: 50vw;
+  background-size: 90vw 50vw;
+  position: absolute;
+  top: 60vw;
+  left: 4%;
+}
+.question2 {
+  font-size: 1.6vw;
+  width: 36vw;
+  height: 7vw;
+  position: relative;
+  top: 18vw;
+  left: 10vw;
+  line-height: 2.2vw;
+}
+.answer3 {
+  font-size: 1.2vw;
+  width: 7vw;
+  height: 1.5vw;
+  position: relative;
+  top: 22vw;
+  left: 12vw;
+}
+.answer4 {
+  font-size: 1.2vw;
+  width: 15vw;
+  height: 1.5vw;
+  position: relative;
+  top: 24vw;
+  left: 12vw;
 }
