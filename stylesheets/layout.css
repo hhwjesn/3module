@@ -22,12 +22,78 @@ p {
   font-family: Hauora;
 }
 
+.first {
+  background-image: url(../images/sun.svg);
+  width: 32vw;
+  height: 32vw;
+  background-size: 32vw 32vw;
+  position: absolute;
+  left: 66.7vw;
+}
+
+.letter1 {
+  position: absolute;
+  top: 8.5vw;
+  left: -64vw;
+}
+.letter2 {
+  position: absolute;
+  top: 8.5vw;
+  left: -54vw;
+}
+.letter3 {
+  position: absolute;
+  top: 8.5vw;
+  left: -44vw;
+}
+.letter4 {
+  position: absolute;
+  top: 8.5vw;
+  left: -34vw;
+}
+.letter5 {
+  position: absolute;
+  top: 8.5vw;
+  left: -24vw;
+}
+.letter6 {
+  position: absolute;
+  top: 8.5vw;
+  left: -14vw;
+}
+.letter7 {
+  position: absolute;
+  top: 8.5vw;
+  left: -4vw;
+}
+.letter8 {
+  position: absolute;
+  top: 22vw;
+  left: -64vw;
+}
+.letter9 {
+  position: absolute;
+  top: 22vw;
+  left: -54vw;
+}
+.letter10 {
+  position: absolute;
+  top: 22vw;
+  left: -44vw;
+}
+.letter11 {
+  position: absolute;
+  top: 22vw;
+  left: -34vw;
+}
+
 .card1 {
   background-image: url(../images/card1.svg);
   width: 90vw;
   height: 50vw;
   background-size: 90vw 50vw;
   position: absolute;
+  top: 42vw;
   left: 4%;
 }
 .question1 {
@@ -62,7 +128,7 @@ p {
   height: 50vw;
   background-size: 90vw 50vw;
   position: absolute;
-  top: 60vw;
+  top: 102vw;
   left: 4%;
 }
 .question2 {
@@ -89,4 +155,92 @@ p {
   position: relative;
   top: 24vw;
   left: 12vw;
+}
+
+.card3 {
+  background-image: url(../images/card3.svg);
+  width: 90vw;
+  height: 50vw;
+  background-size: 90vw 50vw;
+  position: absolute;
+  top: 162vw;
+  left: 4%;
+}
+.question3 {
+  font-size: 1.6vw;
+  width: 55vw;
+  height: 7vw;
+  position: relative;
+  top: 29vw;
+  left: 10vw;
+  line-height: 2.2vw;
+}
+.answer5 {
+  font-size: 1.2vw;
+  width: 15vw;
+  height: 1.5vw;
+  position: relative;
+  top: 33vw;
+  left: 12vw;
+}
+.answer6 {
+  font-size: 1.2vw;
+  width: 15vw;
+  height: 1.5vw;
+  position: relative;
+  top: 31.5vw;
+  left: 60vw;
+}
+
+.bell {
+  background-image: url(../images/bell.svg);
+  width: 33vw;
+  height: 26vw;
+  background-size: 33vw 26vw;
+  position: absolute;
+  top: 216vw;
+  left: 32vw;
+}
+
+.card4 {
+  background-image: url(../images/card4.svg);
+  width: 90vw;
+  height: 50vw;
+  background-size: 90vw 50vw;
+  position: absolute;
+  top: 235vw;
+  left: 4%;
+}
+.question4 {
+  font-size: 1.6vw;
+  width: 55vw;
+  height: 7vw;
+  position: relative;
+  top: 20vw;
+  left: 10vw;
+  line-height: 2.2vw;
+}
+.answer7 {
+  font-size: 1.2vw;
+  width: 15vw;
+  height: 1.5vw;
+  position: relative;
+  top: 24vw;
+  left: 12vw;
+}
+.answer8 {
+  font-size: 1.2vw;
+  width: 18vw;
+  height: 1.5vw;
+  position: relative;
+  top: 22.5vw;
+  left: 60vw;
+}
+
+.risunok {
+  position: relative;
+  top: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
