@@ -28,8 +28,6 @@ p {
 }
 
 .letter1 {
-  width: 2vw;
-  height: 2vw;
   position: absolute;
   animation: letter1 4s forwards;
   top: 8.5vw;

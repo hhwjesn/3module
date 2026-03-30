@@ -1,0 +1,111 @@
+@media screen and (max-width: 768px) {
+  @keyframes letter1 {
+    0% {
+      top: 5vw;
+      left: -64vw;
+    }
+    100% {
+      top: 5vw;
+      left: -64vw;
+    }
+  }
+
+  @keyframes letter2 {
+    0% {
+      top: 5vw;
+      left: -64vw;
+    }
+    100% {
+      top: 5vw;
+      left: -50vw;
+    }
+  }
+
+  @keyframes letter3 {
+    0% {
+      top: 10vw;
+      left: -80vw;
+    }
+    100% {
+      top: 5vw;
+      left: -38vw;
+    }
+  }
+
+  @keyframes letter4 {
+    0% {
+      top: 22vw;
+      left: -64vw;
+    }
+    100% {
+      top: 5vw;
+      left: -28vw;
+    }
+  }
+
+  @keyframes letter5 {
+    0% {
+      top: 22vw;
+      left: -64vw;
+    }
+    100% {
+      top: 5vw;
+      left: -14vw;
+    }
+  }
+  .letter6 {
+    position: absolute;
+    top: 5vw;
+    left: 1vw;
+  }
+
+  @keyframes letter7 {
+    0% {
+      top: 40vw;
+      left: -24vw;
+    }
+    100% {
+      top: 5vw;
+      left: 14vw;
+    }
+  }
+
+  @keyframes letter8 {
+    0% {
+      top: 10vw;
+      left: -74vw;
+    }
+    100% {
+      top: 22vw;
+      left: -64vw;
+    }
+  }
+
+  .letter9 {
+    position: absolute;
+    top: 22vw;
+    left: -50vw;
+  }
+
+  @keyframes letter10 {
+    0% {
+      top: 5vw;
+      left: -20vw;
+    }
+    100% {
+      top: 22vw;
+      left: -36vw;
+    }
+  }
+
+  @keyframes letter11 {
+    0% {
+      top: 30vw;
+      left: -40vw;
+    }
+    100% {
+      top: 22vw;
+      left: -20vw;
+    }
+  }
+}
