@@ -1,5 +1,5 @@
 @import "reset.css";
-@import url(font.css);
+@import url(../fonts/hauora.woff2);
 @import "layout.css";
 @import "animation.css";
 @import "adaptive.css";
