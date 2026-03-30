@@ -8,7 +8,7 @@ body {
 }
 
 @font-face {
-  font-family: Hauora;
+  font-family: "Hauora";
   src:
     url(fonts/web/Hauora-ExtraBold.woff2) format("woff2"),
     url(fonts/web/Hauora-ExtraBold.woff) format("woff");
