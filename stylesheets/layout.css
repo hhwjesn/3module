@@ -7,10 +7,6 @@ body {
   background-size: 100%;
 }
 
-/* section {
-  width: 100%;
-} */
-
 @font-face {
   font-family: Hauora;
   src:
@@ -32,7 +28,10 @@ p {
 }
 
 .letter1 {
+  width: 2vw;
+  height: 2vw;
   position: absolute;
+  animation: letter1 4s forwards;
   top: 8.5vw;
   left: -64vw;
 }
@@ -40,21 +39,25 @@ p {
   position: absolute;
   top: 8.5vw;
   left: -54vw;
+  animation: letter2 4s forwards;
 }
 .letter3 {
   position: absolute;
   top: 8.5vw;
   left: -44vw;
+  animation: letter3 4s forwards;
 }
 .letter4 {
   position: absolute;
   top: 8.5vw;
   left: -34vw;
+  animation: letter4 4s forwards;
 }
 .letter5 {
   position: absolute;
   top: 8.5vw;
   left: -24vw;
+  animation: letter5 4s forwards;
 }
 .letter6 {
   position: absolute;
@@ -65,11 +68,13 @@ p {
   position: absolute;
   top: 8.5vw;
   left: -4vw;
+  animation: letter7 4s forwards;
 }
 .letter8 {
   position: absolute;
   top: 22vw;
   left: -64vw;
+  animation: letter8 4s forwards;
 }
 .letter9 {
   position: absolute;
@@ -80,11 +85,13 @@ p {
   position: absolute;
   top: 22vw;
   left: -44vw;
+  animation: letter10 4s forwards;
 }
 .letter11 {
   position: absolute;
   top: 22vw;
   left: -34vw;
+  animation: letter11 4s forwards;
 }
 
 .card1 {
@@ -96,6 +103,38 @@ p {
   top: 42vw;
   left: 4%;
 }
+
+.ball {
+  width: 10vw;
+  height: 10vw;
+  position: relative;
+  top: 25vw;
+  left: 40vw;
+  z-index: 3;
+  /* top: -20vw;
+  left: 60vw; */
+}
+.ball.animate {
+  animation: ball 4s forwards;
+}
+
+.window {
+  display: none;
+  width: 19.26vw;
+  height: 30.6vw;
+  position: relative;
+  top: -15vw;
+  left: 70vw;
+}
+.football {
+  display: none;
+  width: 35vw;
+  height: 35vw;
+  position: relative;
+  top: -18vw;
+  left: 53vw;
+}
+
 .question1 {
   font-size: 1.6vw;
   width: 40vw;
@@ -104,8 +143,6 @@ p {
   top: 18vw;
   left: 10vw;
   line-height: 2.2vw;
-  transition: opacity 0.3s ease;
-  animation: fade 0.5s;
 }
 .answer1 {
   font-size: 1.2vw;
@@ -135,6 +172,31 @@ p {
   top: 102vw;
   left: 4%;
 }
+
+.leg {
+  width: 32vw;
+  height: 32vw;
+  position: absolute;
+  top: 9vw;
+  left: 55vw;
+}
+.mleg {
+  width: 32vw;
+  height: 32vw;
+  position: absolute;
+  top: 9vw;
+  left: 55vw;
+  display: none;
+}
+.book {
+  width: 32vw;
+  height: 32vw;
+  position: absolute;
+  top: 9vw;
+  left: 50vw;
+  display: none;
+}
+
 .question2 {
   font-size: 1.6vw;
   width: 36vw;
@@ -151,6 +213,7 @@ p {
   position: relative;
   top: 22vw;
   left: 12vw;
+  cursor: pointer;
 }
 .answer4 {
   font-size: 1.2vw;
@@ -159,6 +222,7 @@ p {
   position: relative;
   top: 24vw;
   left: 12vw;
+  cursor: pointer;
 }
 .black-screen {
   position: fixed;
@@ -184,6 +248,32 @@ p {
   top: 162vw;
   left: 4%;
 }
+
+.tree {
+  width: 32vw;
+  height: 32vw;
+  position: absolute;
+  top: 1vw;
+  left: 30vw;
+  display: block;
+}
+.cherv {
+  width: 32vw;
+  height: 32vw;
+  position: absolute;
+  top: -1vw;
+  left: 30vw;
+  display: none;
+}
+.people {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  top: 4vw;
+  left: 30vw;
+  display: none;
+}
+
 .question3 {
   font-size: 1.6vw;
   width: 55vw;
@@ -200,6 +290,7 @@ p {
   position: relative;
   top: 33vw;
   left: 12vw;
+  cursor: pointer;
 }
 .answer6 {
   font-size: 1.2vw;
@@ -208,6 +299,7 @@ p {
   position: relative;
   top: 31.5vw;
   left: 60vw;
+  cursor: pointer;
 }
 
 .bell {
@@ -218,6 +310,10 @@ p {
   position: absolute;
   top: 216vw;
   left: 32vw;
+}
+
+.bell:hover {
+  animation: bell 2s infinite;
 }
 
 .card4 {
@@ -245,6 +341,7 @@ p {
   position: relative;
   top: 24vw;
   left: 12vw;
+  cursor: pointer;
 }
 .answer8 {
   font-size: 1.2vw;
@@ -253,22 +350,28 @@ p {
   position: relative;
   top: 22.5vw;
   left: 60vw;
+  cursor: pointer;
 }
 
-.risunok {
-  position: relative;
-  top: 35vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.drawing {
+  position: absolute;
+  top: 45vw;
+  left: 10vw;
+  width: 70vw;
+  height: 40vw;
+  background: white;
+  border: 0.2vw solid #333232;
+  cursor: crosshair;
 }
+
 .answer9 {
   position: relative;
   font-size: 1.2vw;
   width: 18vw;
   height: 1.5vw;
-  top: 40vw;
+  top: 80vw;
   left: 49%;
+  cursor: pointer;
 }
 
 .wall {
@@ -284,5 +387,13 @@ p {
   font-size: 1.6vw;
   width: 60vw;
   height: 1.5vw;
+  top: -2vw;
   left: 20%;
+  line-height: 2.2vw;
+}
+
+.milana {
+  position: relative;
+  top: 60vw;
+  padding: 1vw;
 }

@@ -1,8 +1,127 @@
-@keyframes fade {
-  from {
-    opacity: 0;
+@keyframes ball {
+  0% {
+    top: 25vw;
+    left: 40vw;
   }
-  to {
-    opacity: 1;
+  100% {
+    top: 2vw;
+    left: 64vw;
+  }
+}
+
+@keyframes bell {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: -10deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  75% {
+    rotate: -10deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+@keyframes letter1 {
+  0% {
+    top: 5vw;
+    left: -64vw;
+  }
+  100% {
+    top: 8.5vw;
+    left: -64vw;
+  }
+}
+
+@keyframes letter2 {
+  0% {
+    top: 5vw;
+    left: -64vw;
+  }
+  100% {
+    top: 8.5vw;
+    left: -54vw;
+  }
+}
+
+@keyframes letter3 {
+  0% {
+    top: 10vw;
+    left: -80vw;
+  }
+  100% {
+    top: 8.5vw;
+    left: -44vw;
+  }
+}
+
+@keyframes letter4 {
+  0% {
+    top: 22vw;
+    left: -64vw;
+  }
+  100% {
+    top: 8.5vw;
+    left: -34vw;
+  }
+}
+
+@keyframes letter5 {
+  0% {
+    top: 22vw;
+    left: -64vw;
+  }
+  100% {
+    top: 8.5vw;
+    left: -24vw;
+  }
+}
+
+@keyframes letter7 {
+  0% {
+    top: 40vw;
+    left: -24vw;
+  }
+  100% {
+    top: 8.5vw;
+    left: -4vw;
+  }
+}
+
+@keyframes letter8 {
+  0% {
+    top: 10vw;
+    left: -74vw;
+  }
+  100% {
+    top: 22vw;
+    left: -64vw;
+  }
+}
+
+@keyframes letter10 {
+  0% {
+    top: 5vw;
+    left: -20vw;
+  }
+  100% {
+    top: 22vw;
+    left: -44vw;
+  }
+}
+
+@keyframes letter11 {
+  0% {
+    top: 30vw;
+    left: -40vw;
+  }
+  100% {
+    top: 22vw;
+    left: -34vw;
   }
 }
