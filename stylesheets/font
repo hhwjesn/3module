@@ -1,4 +1,4 @@
 @font-face {
   font-family: "Hauora";
-  src: url(../fonts/hauora.woff);
+  src: url("../fonts/hauora.woff") format("woff");
 }
