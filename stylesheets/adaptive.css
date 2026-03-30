@@ -109,3 +109,81 @@
     }
   }
 }
+
+@media screen and (max-width: 414px) {
+  .question1,
+  .question2,
+  .question3,
+  .question4,
+  .picture {
+    font-size: 4vw;
+    line-height: 4vw;
+    width: 80vw;
+  }
+
+  .picture {
+    top: -11vw;
+    left: 14%;
+  }
+
+  .answer1,
+  .answer2,
+  .answer3,
+  .answer4,
+  .answer5,
+  .answer6,
+  .answer7,
+  .answer8,
+  .answer9 {
+    font-size: 3.3vw;
+    width: 50vw;
+  }
+
+  .answer1 {
+    top: 36vw;
+  }
+  .answer2 {
+    top: 28vw;
+  }
+
+  .answer3 {
+    top: 28vw;
+  }
+  .answer4 {
+    top: 32vw;
+  }
+
+  .answer5 {
+    left: 5vw;
+    top: 42vw;
+  }
+  .answer6 {
+    left: 55vw;
+    top: 40.5vw;
+  }
+
+  .answer7 {
+    left: 7vw;
+    top: 33vw;
+  }
+  .answer8 {
+    left: 48vw;
+    top: 32.5vw;
+  }
+
+  .drawing {
+    top: 52vw;
+    left: 6vw;
+    width: 80vw;
+    height: 90vw;
+  }
+
+  .wall {
+    top: 430vw;
+  }
+
+  .answer9 {
+    top: 146vw;
+    left: 45%;
+  }
+}
