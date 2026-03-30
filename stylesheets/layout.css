@@ -104,6 +104,8 @@ p {
   top: 18vw;
   left: 10vw;
   line-height: 2.2vw;
+  transition: opacity 0.3s ease;
+  animation: fade 0.5s;
 }
 .answer1 {
   font-size: 1.2vw;
@@ -112,6 +114,7 @@ p {
   position: relative;
   top: 22vw;
   left: 12vw;
+  cursor: pointer;
 }
 .answer2 {
   font-size: 1.2vw;
@@ -120,6 +123,7 @@ p {
   position: relative;
   top: 24vw;
   left: 12vw;
+  cursor: pointer;
 }
 
 .card2 {
@@ -155,6 +159,20 @@ p {
   position: relative;
   top: 24vw;
   left: 12vw;
+}
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6vw;
+  font-family: Hauora;
 }
 
 .card3 {
@@ -243,4 +261,28 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.answer9 {
+  position: relative;
+  font-size: 1.2vw;
+  width: 18vw;
+  height: 1.5vw;
+  top: 40vw;
+  left: 49%;
+}
+
+.wall {
+  background-image: url(../images/wall.svg);
+  width: 98.5vw;
+  height: 66vw;
+  background-size: 98.5vw 66vw;
+  position: absolute;
+  top: 350vw;
+}
+.picture {
+  position: relative;
+  font-size: 1.6vw;
+  width: 60vw;
+  height: 1.5vw;
+  left: 20%;
 }
